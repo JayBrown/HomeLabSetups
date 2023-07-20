@@ -1,4 +1,4 @@
-# Home server/NAS (U.2 build)
+# Home server/NAS (U.2 SSD build)
 DIY NAS/server build for unRAID or TrueNAS Scale with U.2 NVMe SSDs for main storage array
 
 ## Overview

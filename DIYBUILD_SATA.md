@@ -1,4 +1,4 @@
-# Home server/NAS (SATA build)
+# Home server/NAS (SATA SSD build)
 DIY NAS/server build for unRAID or TrueNAS Scale with SATA SSDs for main storage array
 
 ## Overview

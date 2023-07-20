@@ -7,10 +7,10 @@ https://github.com/JayBrown/HomeLabSetups/blob/main/DIYBUILD_SATA.md
 ### U.2 NVMe SSD storage
 https://github.com/JayBrown/HomeLabSetups/blob/main/DIYBUILD_U2.md
 
-### SATA SSD storage (SATA SSD gen3 budget build)
+### SATA SSD storage (gen3 budget build)
 https://github.com/JayBrown/HomeLabSetups/blob/main/DIYBUILD_BUDGET.md
 
-### SATA SSD storage (SATA SSD gen3 low-budget build)
+### SATA SSD storage (gen3 low-budget build)
 n/a
 
 ### Comparison to turnkey solutions
