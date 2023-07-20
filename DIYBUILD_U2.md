@@ -5,11 +5,11 @@ DIY NAS/server build for unRAID or TrueNAS Scale with U.2 NVMe SSDs for main sto
 ### Total prices
 | Item  | Price |
 | :--- | ---: |
-| Stage 1 (main) | 6226 |
+| Stage 1 (main) | 6410 |
 | Stage 2 (backup) | 624 | 
 | Stage 3 (Time Machine) | 988 |
 | ———————————————— | ——— |
-| **Grand Total** | **7838** |
+| **Grand Total** | **8022** |
 
 ### Prices
 July 2023 prices without shipping
@@ -46,16 +46,14 @@ Fundamental server setup
 | PCIe 3.0 x4 U.2 card | 40 |
 | 2 x OCuLink M.2 adapter | 70 |
 | *Storage hardware* | |
-| USB header adapter | 10 |
-| USB to mSATA adapter | 18 |
-| mSATA SSD | 110 |
+| 16GB eUSB | 112 |
 | ———————————————— | ——— |
-| ***Subtotal*** | ***4501*** |
+| ***Subtotal*** | ***4475*** |
 | *Storage* | |
 | 500GB gen4 M.2 NVMe SSD (L2ARC) | 45 |
-| 8 x 4TB U.2 NVMe SSD | 6226 |
+| 8 x 4TB U.2 NVMe SSD | 1890 |
 | ———————————————— | ——— |
-| **Total** | **X** |
+| **Total** | **6410** |
 
 #### Stage 2
 Server HDD backup
@@ -306,26 +304,12 @@ n/a
 
 ## Storage hardware
 ### OS boot drive
-DIY USB3/mSATA DOM (internal on motherboard)
-
-#### 20-pin USB3 header USB3 Type A adapter 
-* Delock 41865 USB 3.0 Pin Header female > 2 x USB 3.0 female – up, stacked
-* https://www.delock.de/produkt/41865/merkmale.html?setLanguage=en
-* Price: 10
-
-#### USB3.0 mSATA Adapter
-* Delock 62681 Converter USB 5 Gbps Type-A male > mSATA full size (76mm)
-* https://www.delock.de/produkt/62681/merkmale.html?setLanguage=en
-* NOTE: two adapters for TrueNAS Scale (mirror)
-* Power (max, USB3): 4.5W
-* Price: 18 (36 for TrueNAS Scale)
-
-#### 256GB mSATA SSD (MLC NAND)
-* Transcend 256GB SATA III 6Gb/s MSA370S mSATA SSD 370S (TS256GMSA370S)
-* https://www.amazon.de/dp/B08BXF8KS2
-* NOTE: two SSDs for TrueNAS Scale (mirror)
-* Power (max, cheap mSATA brands): 2W (4W for TrueNAS Scale)
-* Price: 110 (220 for TrueNAS Scale)
+* 16GB eUSB 2.0 (for 9-pin header)
+* ATP 16GB eUSB 2.0 Premium SLC (AF16GSSGH-AACXP)
+* https://www.atpinc.com/products/industrial-ssds-eusb#specifications
+* https://www.storesys.de/ATP-16GB-eUSB-254mm-I-Temp-Power-Protector
+* NOTE (unRAID): minimum 2GB, max 32GB
+* Price: 112
 
 ### 9 x U.2 NVMe SSD
 * PCIe 3.0 x4 (8 x array, 1 x Time Machine)

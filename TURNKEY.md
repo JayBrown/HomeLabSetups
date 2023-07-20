@@ -16,11 +16,11 @@ Turnkey setups comparison
 | DiskStation 8-bay + 5X | DSM, 50GbE, 64GB, no iGPU, SATA SSD | 1627 | 3407 | 4453 | 4656 |
 | Flashstor 12 + Mac Mini | unRAID+macOS, 10+20GbE, 32+8GB, 2xiGPU, bridged gen3 M.2 | 1077 | 2612 | 5066 |5066 |
 | QNAP 8-bay + DAS | unRAID, 50GbE, 64GB, iGPU, SATA SSD | 3287 | 5061 | 5580 | 5790 |
-| **DIY SATA budget build** | **unRAID, 50GbE, 64GB, iGPU, SATA SSD** | **2478** | **4177** | **4801** | **5793** |
+| **DIY SATA budget build** | **unRAID, 50GbE, 64GB, iGPU, SATA SSD** | **2452** | **4151** | **4775** | **5767** |
 | DiskStation 8-bay + Mac Mini | DSM+macOS, 50+20GbE, 64+8GB, iGPU (via Mac), SATA SSD | 1627 | 3407 | 5871 | 5871 |
-| **DIY SATA build** | **unRAID, 50GbE, 128GB, iGPU, SATA SSD** | **3293** | **5027** | **5651** | **6639** |
+| **DIY SATA build** | **unRAID, 50GbE, 128GB, iGPU, SATA SSD** | **3267** | **5001** | **5625** | **6613** |
 | TerraMaster 12-bay | unRAID, 50GbE, 64GB, iGPU, SATA SSD | 4284 | 5983 | 6479 | 6832 |
-| **DIY U.2 build** | **unRAID, 50GbE, 128GB, iGPU, U.2 SSD** | **4501** | **6226** | **6850** | **7838** |
+| **DIY U.2 build** | **unRAID, 50GbE, 128GB, iGPU, U.2 SSD** | **4475** | **6410** | **7034** | **8022** |
 | Mac Mini | macOS, 50GbE, 32GB, iGPU, U.2 SSD | 5379 | 7059 | 8060 | 8060 |
 
 * NOTE: U.2 SSD storage solutions assume U.2 SSD prices at approx. €210 per 4TB

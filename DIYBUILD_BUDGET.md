@@ -1,15 +1,15 @@
-# Home server/NAS (SATA budget build)
-DIY NAS/server budget build for unRAID or TrueNAS Scale with SATA SSDs for main storage array
+# Home server/NAS (SATA SSD gen3 budget build)
+DIY NAS/server budget build for unRAID or TrueNAS Scale with gen3 hardware 6 SATA SSDs for main storage array
 
 ## Overview
 ### Total prices
 | Item  | Price |
 | :--- | ---: |
-| Stage 1 (main) | 4177 |
+| Stage 1 (main) | 4151 |
 | Stage 2 (backup) | 624 | 
 | Stage 3 (Time Machine) | 992 |
 | ———————————————— | ——— |
-| **Grand Total** | **5793** |
+| **Grand Total** | **5767** |
 
 ### Prices
 July 2023 prices without shipping
@@ -44,17 +44,15 @@ Fundamental server setup
 | PCIe 3.0 x4 dual M.2 carrier card | 248 |
 | PCIe 3.0 x1 SATA card | 40 |
 | *Storage hardware* | |
-| USB header adapter | 10 |
-| USB to mSATA adapter | 18 |
-| mSATA SSD | 110 |
+| 16GB eUSB | 112 |
 | ———————————————— | ——— |
-| ***Subtotal*** | ***2478*** |
+| ***Subtotal*** | ***2452*** |
 | *Storage* | |
 | 8 x 4TB SATA SSD | 1624 |
 | 256GB gen3 M.2 SSD (L2ARC) | 28 |
 | 1TB gen3 M.2 SSD (unRAID cache) | 47 |
 | ———————————————— | ——— |
-| **Total** | **4177** |
+| **Total** | **4151** |
 
 #### Stage 2
 Server HDD backup
@@ -313,26 +311,12 @@ n/a
 
 ## Storage hardware
 ### OS boot drive
-DIY USB3/mSATA DOM (internal on motherboard)
-
-#### 20-pin USB3 header USB3 Type A adapter 
-* Delock 41865 USB 3.0 Pin Header female > 2 x USB 3.0 female – up, stacked
-* https://www.delock.de/produkt/41865/merkmale.html?setLanguage=en
-* Price: 10
-
-#### USB3.0 mSATA Adapter
-* Delock 62681 Converter USB 5 Gbps Type-A male > mSATA full size (76mm)
-* https://www.delock.de/produkt/62681/merkmale.html?setLanguage=en
-* NOTE: two adapters for TrueNAS Scale (mirror)
-* Power (max, USB3): 4.5W
-* Price: 18 (36 for TrueNAS Scale)
-
-#### 256GB mSATA SSD (MLC NAND)
-* Transcend 256GB SATA III 6Gb/s MSA370S mSATA SSD 370S (TS256GMSA370S)
-* https://www.amazon.de/dp/B08BXF8KS2
-* NOTE: two SSDs for TrueNAS Scale (mirror)
-* Power (max, cheap mSATA brands): 2W (4W for TrueNAS Scale)
-* Price: 110 (220 for TrueNAS Scale)
+* 16GB eUSB 2.0 (for 9-pin header)
+* ATP 16GB eUSB 2.0 Premium SLC (AF16GSSGH-AACXP)
+* https://www.atpinc.com/products/industrial-ssds-eusb#specifications
+* https://www.storesys.de/ATP-16GB-eUSB-254mm-I-Temp-Power-Protector
+* NOTE (unRAID): minimum 2GB, max 32GB
+* Price: 112
 
 ### PCIe 3.0 x4 M.2 SSDs
 #### 256GB
